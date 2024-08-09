@@ -2,6 +2,8 @@ import React, {useState} from 'react';
 import icons from './icons';
 import * as styles from './styles.module.css';
 
+//i need to implement framer-motion to add initial animation and exit animation to the dropdown
+
 function FeaturesDropdown() {
     const [open, setOpen] = useState(false);
 
@@ -14,7 +16,7 @@ function FeaturesDropdown() {
                 <a className={styles.features}>
                     Features 
                 </a>     
-                <div className={styles.arrow}/>    
+                <div className={styles.arrow} style={open ? {transform: 'rotate(180deg)'} : {}}/>    
                 {open && <div className={styles.dropdown}>
                     <img className={styles.icon} src={icons['todo']}/>
                     <a>

@@ -26,6 +26,7 @@
     -webkit-mask-position: center;
     mask-repeat: no-repeat;
     -webkit-mask-repeat: no-repeat;
+    transform: rotate(0deg);
 }
 
 .container:hover > .arrow{
