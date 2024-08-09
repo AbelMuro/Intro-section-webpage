@@ -1,0 +1,19 @@
+@font-face {
+    font-family: 'epilogue';
+    src: url('/public/fonts/Epilogue-VariableFont_wght.ttf');
+}
+
+* {
+    transition: all 0.2s linear;
+    box-sizing: border-box;
+}
+
+body{
+    min-height: 100vh;
+    background-color: var(--Almost-White, #FAFAFA);
+    margin: 0px;
+}
+
+:root{
+    --font: 'epilogue'
+}
