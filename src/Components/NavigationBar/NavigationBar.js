@@ -1,10 +1,15 @@
 import React from 'react';
 import FeaturesDropdown from './FeaturesDropdown';
+import CompanyDropdown from './CompanyDropdown';
+import useMediaQuery from '~/Hooks/useMediaQuery.js';
+import MobileNavBar from './MobileNavBar';
 import * as styles from './styles.module.css';
 import icons from './icons';
 
 function NavigationBar() {
-    return(
+    const [mobile] = useMediaQuery('(max-width: 650px)');
+
+    return mobile ? <MobileNavBar/> : 
         <nav className={styles.nav}>
             <div className={styles.nav_links}>
                 <img className={styles.nav_logo} src={icons['logo']}/>
@@ -13,7 +18,7 @@ function NavigationBar() {
                         <FeaturesDropdown/>
                     </li>
                     <li>
-                        <a>Company</a>
+                        <CompanyDropdown/>
                     </li>
                     <li>
                         <a>Careers</a>
@@ -32,7 +37,6 @@ function NavigationBar() {
                 </button>
             </div>  
         </nav>
-    )
 }
 
 export default NavigationBar;

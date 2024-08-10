@@ -14,7 +14,7 @@
 
 .nav_logo{
     width: 83.504px;
-    height: 26.583px;
+    object-fit: contain;
 }
 
 .nav_links > ul{
@@ -56,6 +56,7 @@
     font-weight: 400;
     line-height: 16px; /* 114.286% */
     cursor: pointer;
+    padding: 0px;
 }
 
 .nav_buttons > button:hover{
@@ -76,4 +77,36 @@
 
 .nav_buttons > button:nth-of-type(2):hover{
     border-color: black
+}
+
+@media(max-width: 1400px){
+    .nav{
+        width: 95%;
+    }
+}
+
+@media(max-width: 1000px){
+    .nav_links{
+        gap: 30px;
+    }    
+
+    .nav_links > ul{
+        gap: 25px;
+    }
+
+    .nav_buttons{
+        gap: 15px;
+    }
+}
+
+@media(max-width: 800px){
+    .nav_logo{
+        width: 63.504px;
+        object-fit: contain;
+    }
+
+    .nav_buttons > button:nth-of-type(2){
+        width: 80px;
+        height: 42px;
+    }
 }

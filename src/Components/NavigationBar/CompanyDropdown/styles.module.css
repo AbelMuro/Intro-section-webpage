@@ -1,0 +1,82 @@
+.container{
+    display: flex;
+    align-items: center;
+    gap: 9px;    
+    position: relative;
+}
+
+.company{
+    color: var(--Medium-Grey, #686868);
+    font-family: var(--font);
+    font-size: 0.875rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 16px; /* 114.286% */
+}
+
+.arrow{
+    width: 10px;
+    height: 6px;
+    background-color: var(--Medium-Grey, #686868);
+    mask-image: url('../icons/icon-arrow-down.svg');
+    -webkit-image-image: url('../icons/icon-arrow-down.svg');
+    mask-size: 10px 6px;
+    -webkit-mask-size: 10px 6px;
+    mask-position: center;
+    -webkit-mask-position: center;
+    mask-repeat: no-repeat;
+    -webkit-mask-repeat: no-repeat;
+    transform: rotate(0deg);
+}
+
+.container:hover > .arrow{
+    background-color: black;    
+}
+
+.container:hover > .features{
+    color: black;
+}
+
+.dropdown{
+    width: 116px;
+    height: 128px;
+    padding: 25px 24px;
+    border-radius: 10px;
+    background-color: var(--Pure-White, #FFF);
+    box-shadow: 0px 10px 40px 0px rgba(0, 0, 0, 0.15);
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    position: absolute;
+    top: 36px;
+    right: 0px;
+}
+
+.icon:nth-of-type(1){
+    width: 14px;
+    height: 16px;
+}
+
+.icon:nth-of-type(2), .icon:nth-of-type(4){
+    width: 16px;
+    height: 16px;
+}
+
+.icon:nth-of-type(3){
+    width: 12px;
+    height: 16px;
+}
+
+.dropdown > a {
+    color: var(--Medium-Grey, #686868);
+    font-family: var(--font);
+    font-size: 0.875rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 16px; /* 114.286% */
+    cursor: pointer;
+}
+
+.dropdown > a:hover{
+    color: black;
+}
