@@ -5,6 +5,7 @@ import {motion, AnimatePresence} from 'framer-motion';
 
 function CompanyDropdown() {
     const [open, setOpen] = useState(false);
+    
 
     const handleOpen = () => {
         setOpen(!open);
