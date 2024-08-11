@@ -21,7 +21,7 @@ function FeaturesDropdown() {
             >
             <a className={styles.features} onClick={handleOpen}>
                 Features
-                <img className={styles.arrow} style={open ? {transform: 'rotate(180deg)'} : {}} alt='arrow icon'/>
+                <div className={styles.arrow} style={open ? {transform: 'rotate(180deg)'} : {}}/>
             </a>
             <div className={styles.dropdown}>
                 <motion.div variants={linkVariant} className={styles.links}>

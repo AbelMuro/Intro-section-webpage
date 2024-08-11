@@ -20,7 +20,7 @@ function CompanyDropdown() {
             >
             <a className={styles.features} onClick={handleOpen}>
                 Company
-                <img className={styles.arrow} style={open ? {transform: 'rotate(180deg)'} : {}} alt='arrow icon'/>
+                <div className={styles.arrow} style={open ? {transform: 'rotate(180deg)'} : {}}/>
             </a>
             <div className={styles.dropdown}>
                 <motion.a variants={linkVariant}>
