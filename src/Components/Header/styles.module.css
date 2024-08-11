@@ -117,7 +117,7 @@
     }
 
     .header_content > p{
-        width: 100%;    
+        width: 90%;    
     }
 
 }
@@ -141,7 +141,6 @@
     }
 
     .header_image{
-        width: 100%;
         align-self: center;
     }
 }
