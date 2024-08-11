@@ -16,7 +16,7 @@ function MobileNavBar() {
     return(
         <>
             <nav className={styles.nav}>
-                <img className={styles.nav_logo} src={icons['mobileLogo']}/>
+                <img className={styles.nav_logo} src={icons['mobileLogo']} alt='mobile logo'/>
                 <button className={styles.nav_menu} onClick={handleOpen}></button>
             </nav>   
             <AnimatePresence>

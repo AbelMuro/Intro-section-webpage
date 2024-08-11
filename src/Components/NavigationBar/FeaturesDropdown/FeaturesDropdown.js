@@ -28,19 +28,19 @@ function FeaturesDropdown() {
                             exit='exit'
                             variants={dropdownVariant}
                             >
-                            <img className={styles.icon} src={icons['todo']}/>
+                            <img className={styles.icon} src={icons['todo']} alt='todo icon'/>
                             <a>
                                 Todo List
                             </a>
-                            <img className={styles.icon} src={icons['calendar']}/>
+                            <img className={styles.icon} src={icons['calendar']} alt='calendar icon'/>
                             <a>
                                 Calendar
                             </a>
-                            <img className={styles.icon} src={icons['reminders']}/>
+                            <img className={styles.icon} src={icons['reminders']} alt='reminders icon'/>
                             <a>
                                 Reminders
                             </a>
-                            <img className={styles.icon} src={icons['planning']}/>
+                            <img className={styles.icon} src={icons['planning']} alt='planning icon'/>
                             <a>
                                 Planning
                             </a>

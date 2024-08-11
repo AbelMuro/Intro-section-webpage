@@ -12,7 +12,7 @@ function NavigationBar() {
     return mobile ? <MobileNavBar/> : 
         <nav className={styles.nav}>
             <div className={styles.nav_links}>
-                <img className={styles.nav_logo} src={icons['logo']}/>
+                <img className={styles.nav_logo} src={icons['logo']} alt='logo'/>
                 <ul>
                     <li>
                         <FeaturesDropdown/>

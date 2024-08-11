@@ -21,16 +21,16 @@ function Header() {
             <img className={styles.header_image}/>
             <ul className={styles.header_partners}>
                     <li>
-                        <img className={styles.header_partner} src={icons['databiz']}/>
+                        <img className={styles.header_partner} src={icons['databiz']} alt='client data biz'/>
                     </li>
                     <li>
-                        <img className={styles.header_partner} src={icons['audiophile']}/>
+                        <img className={styles.header_partner} src={icons['audiophile']} alt='client audiophile'/>
                     </li>
                     <li>
-                        <img className={styles.header_partner} src={icons['meet']}/>
+                        <img className={styles.header_partner} src={icons['meet']} alt='client meet'/>
                     </li>
                     <li>
-                        <img className={styles.header_partner} src={icons['maker']}/>
+                        <img className={styles.header_partner} src={icons['maker']} alt='client maker'/>
                     </li>
                 </ul>
         </header>
