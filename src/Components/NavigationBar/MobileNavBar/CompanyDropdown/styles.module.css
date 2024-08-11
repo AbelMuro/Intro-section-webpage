@@ -1,0 +1,67 @@
+.container{
+    display: flex;
+    flex-direction: column;
+    gap: 18px;
+    height: 26px;
+    overflow: hidden;
+    transition: all 0.2s linear, height 0s;
+}
+
+.features{
+    color: var(--Medium-Grey, #686868);
+    font-family: var(--font);
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px; /* 162.5% */
+    display: flex;
+    align-items: center;
+    gap: 17px;
+    cursor: pointer;
+}
+
+.arrow{
+    width: 10px;
+    height: 8px;
+    background-color: #686868;
+    mask-image: url('./icons/icon-arrow-down.svg');
+    -webkit-mask-image: url('./icons/icon-arrow-down.svg');
+    mask-size: 10px 6px;
+    -webkit-maks-size: 10px 6px;
+    mask-repeat: no-repeat;
+    -webkit-mask-repeat: no-repeat;
+    mask-position: center;
+    -webkit-mask-position: center;
+}   
+
+.features:hover{
+    color: black;
+}
+
+.features:hover > .arrow{
+    background-color: black;
+}
+
+.dropdown{
+    width: 119px;
+    height: 152px;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    margin-left: 24px;
+}
+
+.dropdown > a{
+    color: var(--Medium-Grey, #686868);
+    font-family: var(--font);
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px; /* 162.5% */
+    cursor: pointer;
+}
+
+.dropdown > a:hover{
+    color: #151515;
+}
+
