@@ -15,10 +15,10 @@ function NavigationBar() {
                 <img className={styles.nav_logo} src={icons['logo']} alt='logo'/>
                 <ul>
                     <li>
-                        <FeaturesDropdown setCloseDropdown={setCloseDropdown}/>
+                        <FeaturesDropdown/>
                     </li>
                     <li>
-                        <CompanyDropdown setCloseDropdown={setCloseDropdown}/>
+                        <CompanyDropdown/>
                     </li>
                     <li>
                         <a>Careers</a>
