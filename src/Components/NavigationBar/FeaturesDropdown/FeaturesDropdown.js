@@ -4,8 +4,6 @@ import * as styles from './styles.module.css';
 import {motion, AnimatePresence} from 'framer-motion';
 import { dropdownVariant } from './Variants';
 
-//i need to implement framer-motion to add initial animation and exit animation to the dropdown
-
 function FeaturesDropdown() {
     const [open, setOpen] = useState(false);
 

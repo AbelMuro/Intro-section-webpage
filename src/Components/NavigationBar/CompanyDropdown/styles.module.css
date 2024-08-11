@@ -80,3 +80,9 @@
 .dropdown > a:hover{
     color: black;
 }
+
+@media(max-width: 1000px){
+    .dropdown{
+        right: -20px;
+    }
+}
