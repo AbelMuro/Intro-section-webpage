@@ -18,7 +18,7 @@ function Header() {
                     Learn more
                 </button>
             </section>
-            <img className={styles.header_image}/>
+            <img className={styles.header_image} alt='pattern image with man holding a laptop'/>
             <ul className={styles.header_partners}>
                     <li>
                         <img className={styles.header_partner} src={icons['databiz']} alt='client data biz'/>
