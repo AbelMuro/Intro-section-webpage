@@ -137,7 +137,7 @@
 @media(max-width: 940px){
     .header{
         column-gap: 65px;
-        grid-template-columns: 1fr 1.5fr;
+        grid-template-columns: 1fr 50%;
     }
 
     .header_image{
@@ -151,7 +151,7 @@
     }
 
     .header_content > h1{
-        width: 80%;
+        width: 200px;
         font-size: 2.25rem;
         letter-spacing: -0.5px;
         line-height: 42px;
