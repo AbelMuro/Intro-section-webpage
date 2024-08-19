@@ -34,7 +34,7 @@
 .overlay{
     width: 100%;
     height: 100vh;
-    position: absolute;
+    position: fixed;
     top: 0px;
     left: 0px;
     background-color: var(--Black, rgb(21, 21, 21, 0.75));

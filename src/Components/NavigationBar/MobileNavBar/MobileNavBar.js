@@ -20,7 +20,8 @@ function MobileNavBar() {
                 <button className={styles.nav_menu} onClick={handleOpen}></button>
             </nav>   
             <AnimatePresence>
-                {open && <motion.div className={styles.overlay} initial='hide' animate='show' exit='exit' variants={overlayVariant}>
+                {open && 
+                <motion.div className={styles.overlay} initial='hide' animate='show' exit='exit' variants={overlayVariant}>
                     <motion.menu className={styles.menu} variants={menuVariant}>
                         <button className={styles.menu_close} onClick={handleOpen}></button>
                         <div className={styles.menu_links}>

@@ -148,6 +148,7 @@
 @media(max-width: 800px){
     .header{
         row-gap: 40px;
+        margin: 0px auto 80px auto; 
     }
 
     .header_content > h1{
@@ -175,6 +176,7 @@
         grid-template-columns: 1fr;
         justify-content: initial;
         row-gap: 0px;
+        margin: 0px auto 40px auto; 
     }
 
     .header_image{
